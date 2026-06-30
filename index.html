@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0A2540" />
+  <title>Master Seguros — Proteção com Maestria</title>
+  <meta name="description" content="Master Seguros: corretora de seguros premium. Proteção para auto, vida, residência, empresa, saúde e viagem. Cadastre-se e garanta cupons de desconto na inauguração." />
+  <meta name="author" content="Master Seguros" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Master Seguros — Proteção com Maestria" />
+  <meta property="og:description" content="Proteção que vale por toda a vida. Cadastre-se e garanta seu cupom de inauguração." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/hero-master-seguros.png" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/logo-master-seguros.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ PROGRESS BAR ============ -->
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- ============ TOP BAR ============ -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__contact">
+        <a href="tel:+5511999999999" class="topbar__item">
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.69 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.33 1.85.56 2.81.69A2 2 0 0 1 22 16.92z"/></svg>
+          (11) 99999-9999
+        </a>
+        <a href="mailto:contato@masterseguros.com.br" class="topbar__item">
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg>
+          contato@masterseguros.com.br
+        </a>
+      </div>
+      <div class="topbar__social">
+        <span class="topbar__hours">Seg a Sex, 8h às 18h</span>
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+        <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M4.98 3.5A2.5 2.5 0 1 1 0 3.5a2.5 2.5 0 0 1 4.98 0zM.5 8h4V24h-4zM8 8h3.8v2.2h.05c.53-1 1.83-2.2 3.77-2.2 4.03 0 4.78 2.65 4.78 6.1V24h-4v-7.1c0-1.7-.03-3.9-2.38-3.9-2.38 0-2.75 1.86-2.75 3.78V24H8z"/></svg></a>
+        <a href="https://wa.me/5511999999999" aria-label="WhatsApp"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15l-1.4 5 5.1-1.3A10 10 0 1 0 12 2zm5.8 14.2c-.2.7-1.2 1.3-1.7 1.3-.5.1-1 .1-1.7-.1-.4-.1-.9-.3-1.6-.6-2.8-1.2-4.6-4-4.8-4.2-.1-.2-1.1-1.4-1.1-2.7s.7-1.9.9-2.2c.2-.2.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 1.9c.1.2.1.4 0 .5l-.4.6c-.1.2-.3.3-.1.6.1.2.6 1 1.3 1.6.9.8 1.6 1 1.9 1.2.2.1.4.1.5-.1l.7-.8c.2-.2.4-.2.6-.1l1.8.9c.2.1.4.2.4.3.1.2.1.8-.1 1.3z"/></svg></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ HEADER / NAV ============ -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#hero" class="brand" aria-label="Master Seguros - Início">
+        <img src="assets/logo-master-seguros.png" alt="Master Seguros" class="brand__logo" />
+      </a>
+
+      <nav class="nav" id="nav">
+        <button class="nav__close" id="navClose" aria-label="Fechar menu">&times;</button>
+
+        <div class="nav__item nav__item--sub">
+          <a href="#servicos" class="nav__link nav__link--parent">
+            Seguros
+            <svg class="nav__chevron" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 9l6 6 6-6"/></svg>
+          </a>
+          <div class="nav__sub">
+            <a href="#seguro-auto" class="nav__sublink">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 17h14M6 17l1.5-5h9L18 17"/><circle cx="7.5" cy="17.5" r="1.3"/><circle cx="16.5" cy="17.5" r="1.3"/></svg>
+              Seguro Auto
+            </a>
+            <a href="#seguro-vida" class="nav__sublink">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M19 14c1.5-1.5 3-3.3 3-5.5A4.5 4.5 0 0 0 12 5 4.5 4.5 0 0 0 2 8.5C2 10.7 3.5 12.5 5 14l7 7z"/></svg>
+              Seguro de Vida
+            </a>
+            <a href="#seguro-residencial" class="nav__sublink">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 11l9-8 9 8"/><path d="M5 9.5V21h14V9.5"/></svg>
+              Seguro Residencial
+            </a>
+            <a href="#seguro-empresarial" class="nav__sublink">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 21V8l9-5 9 5v13"/><path d="M9 21v-6h6v6"/></svg>
+              Seguro Empresarial
+            </a>
+            <a href="#plano-saude" class="nav__sublink">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+              Plano de Saúde
+            </a>
+            <a href="#seguro-viagem" class="nav__sublink">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20z"/></svg>
+              Seguro Viagem
+            </a>
+          </div>
+        </div>
+
+        <a href="#diferenciais" class="nav__link">Diferenciais</a>
+        <a href="#como-funciona" class="nav__link">Como Funciona</a>
+        <a href="#depoimentos" class="nav__link">Depoimentos</a>
+        <a href="#faq" class="nav__link">Dúvidas</a>
+        <a href="#cadastro" class="nav__link nav__link--cta">Quero meu cupom</a>
+      </nav>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ CARROSSEL ============ -->
+    <section class="carousel" id="carrossel" aria-roledescription="carrossel" aria-label="Situações de seguro e sinistro">
+      <div class="carousel__viewport">
+        <div class="carousel__track" id="carouselTrack">
+          <figure class="cslide" role="group" aria-roledescription="slide">
+            <img src="img/protecao-familia.png" alt="Corretor desenhando a proteção de uma família, casa e carro" class="cslide__img" loading="eager" />
+            <figcaption class="cslide__caption">
+              <span class="cslide__tag">Proteção</span>
+              <h3 class="cslide__title">Proteção para tudo que importa</h3>
+              <p class="cslide__text">Sua família, seu lar e seu carro amparados por quem cuida de você.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="cslide" role="group" aria-roledescription="slide">
+            <img src="img/protecao-auto.png" alt="Profissional protegendo um carro com as mãos" class="cslide__img" loading="lazy" />
+            <figcaption class="cslide__caption">
+              <span class="cslide__tag">Seguro Auto</span>
+              <h3 class="cslide__title">Seu carro sempre protegido</h3>
+              <p class="cslide__text">Cobertura completa contra roubo, colisão e imprevistos do dia a dia.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="cslide" role="group" aria-roledescription="slide">
+            <img src="img/contratacao-seguro.png" alt="Cliente assinando contrato de seguro do veículo" class="cslide__img" loading="lazy" />
+            <figcaption class="cslide__caption">
+              <span class="cslide__tag">Contratação</span>
+              <h3 class="cslide__title">Contratação simples e sem burocracia</h3>
+              <p class="cslide__text">Assinatura rápida, transparente e com consultoria especializada.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="cslide" role="group" aria-roledescription="slide">
+            <img src="img/vistoria-veicular.png" alt="Mecânico realizando vistoria no motor de um carro" class="cslide__img" loading="lazy" />
+            <figcaption class="cslide__caption">
+              <span class="cslide__tag">Vistoria & Assistência</span>
+              <h3 class="cslide__title">Vistoria e assistência especializada</h3>
+              <p class="cslide__text">Equipe técnica pronta para avaliar e socorrer quando você precisar.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="cslide" role="group" aria-roledescription="slide">
+            <img src="img/acidente-transito.png" alt="Duas pessoas após uma batida de trânsito" class="cslide__img" loading="lazy" />
+            <figcaption class="cslide__caption">
+              <span class="cslide__tag">Acionamento</span>
+              <h3 class="cslide__title">Acionou? A gente resolve para você</h3>
+              <p class="cslide__text">Suporte total no momento do acidente, do registro à solução.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="cslide" role="group" aria-roledescription="slide">
+            <img src="img/colisao-sinistro.png" alt="Colisão traseira entre dois veículos" class="cslide__img" loading="lazy" />
+            <figcaption class="cslide__caption">
+              <span class="cslide__tag">Sinistro</span>
+              <h3 class="cslide__title">Sinistro com resposta em 24h</h3>
+              <p class="cslide__text">Agilidade na análise e na indenização para você voltar à rotina.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="cslide" role="group" aria-roledescription="slide">
+            <img src="img/seguro-conceito.png" alt="Mão apontando o ciclo entre casa, dinheiro e carro" class="cslide__img" loading="lazy" />
+            <figcaption class="cslide__caption">
+              <span class="cslide__tag">Consultoria</span>
+              <h3 class="cslide__title">O seguro certo para cada necessidade</h3>
+              <p class="cslide__text">Comparamos o mercado inteiro para encontrar o melhor para você.</p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <button class="carousel__btn carousel__btn--prev" id="carouselPrev" aria-label="Imagem anterior" type="button">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <button class="carousel__btn carousel__btn--next" id="carouselNext" aria-label="Próxima imagem" type="button">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M9 6l6 6-6 6"/></svg>
+        </button>
+      </div>
+
+      <div class="carousel__dots" id="carouselDots" role="tablist" aria-label="Selecionar imagem"></div>
+      <div class="carousel__progress"><span id="carouselProgress"></span></div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="services section" id="servicos">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Nossos Seguros</span>
+          <h2 class="section__title">Proteção completa para tudo que <span class="text-gradient">importa</span></h2>
+          <p class="section__lead">Soluções sob medida com a curadoria de quem compara o mercado inteiro por você. Escolha a categoria e receba uma cotação personalizada.</p>
+        </div>
+
+        <div class="services__grid">
+          <article class="card reveal" id="seguro-auto">
+            <div class="card__icon">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 17h14M6 17l1.5-5h9L18 17M7 12l1-4h8l1 4"/><circle cx="7.5" cy="17.5" r="1.5"/><circle cx="16.5" cy="17.5" r="1.5"/></svg>
+            </div>
+            <h3>Seguro Auto</h3>
+            <p>Cobertura completa contra roubo, colisão e terceiros, com carro reserva e assistência 24h em todo o país.</p>
+            <a href="#cadastro" class="card__link">Cotar agora <span>&rarr;</span></a>
+          </article>
+
+          <article class="card card--featured reveal" id="seguro-vida">
+            <span class="card__tag">Mais procurado</span>
+            <div class="card__icon">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M19 14c1.5-1.5 3-3.3 3-5.5A4.5 4.5 0 0 0 12 5 4.5 4.5 0 0 0 2 8.5C2 10.7 3.5 12.5 5 14l7 7z"/></svg>
+            </div>
+            <h3>Seguro de Vida</h3>
+            <p>Garanta o futuro de quem você ama. Amparo financeiro, assistência funeral e cobertura por invalidez.</p>
+            <a href="#cadastro" class="card__link">Cotar agora <span>&rarr;</span></a>
+          </article>
+
+          <article class="card reveal" id="seguro-residencial">
+            <div class="card__icon">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 11l9-8 9 8"/><path d="M5 9.5V21h14V9.5"/><path d="M9 21v-6h6v6"/></svg>
+            </div>
+            <h3>Seguro Residencial</h3>
+            <p>Seu lar protegido contra incêndio, roubo, danos elétricos e muito mais, com serviços de reparo inclusos.</p>
+            <a href="#cadastro" class="card__link">Cotar agora <span>&rarr;</span></a>
+          </article>
+
+          <article class="card reveal" id="seguro-empresarial">
+            <div class="card__icon">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 21V8l9-5 9 5v13"/><path d="M3 21h18M9 21v-6h6v6M8 11h.01M16 11h.01M12 11h.01"/></svg>
+            </div>
+            <h3>Seguro Empresarial</h3>
+            <p>Proteja seu negócio, patrimônio e colaboradores com coberturas que garantem a continuidade da sua empresa.</p>
+            <a href="#cadastro" class="card__link">Cotar agora <span>&rarr;</span></a>
+          </article>
+
+          <article class="card reveal" id="plano-saude">
+            <div class="card__icon">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            </div>
+            <h3>Plano de Saúde</h3>
+            <p>Os melhores planos individuais, familiares e empresariais com a rede credenciada mais ampla da sua região.</p>
+            <a href="#cadastro" class="card__link">Cotar agora <span>&rarr;</span></a>
+          </article>
+
+          <article class="card reveal" id="seguro-viagem">
+            <div class="card__icon">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20z"/></svg>
+            </div>
+            <h3>Seguro Viagem</h3>
+            <p>Viaje tranquilo com assistência médica internacional, bagagem protegida e suporte em qualquer lugar do mundo.</p>
+            <a href="#cadastro" class="card__link">Cotar agora <span>&rarr;</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ STATS ============ -->
+    <section class="stats" id="stats">
+      <div class="container stats__grid">
+        <div class="stat reveal">
+          <span class="stat__num" data-count="5000" data-suffix="+">0</span>
+          <span class="stat__label">Clientes protegidos</span>
+        </div>
+        <div class="stat reveal">
+          <span class="stat__num" data-count="25" data-suffix="+">0</span>
+          <span class="stat__label">Seguradoras parceiras</span>
+        </div>
+        <div class="stat reveal">
+          <span class="stat__num" data-count="98" data-suffix="%">0</span>
+          <span class="stat__label">Sinistros aprovados</span>
+        </div>
+        <div class="stat reveal">
+          <span class="stat__num" data-count="15" data-suffix=" anos">0</span>
+          <span class="stat__label">De experiência</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CARRIERS / PARTNERS ============ -->
+    <section class="partners">
+      <div class="container">
+        <p class="partners__title">Trabalhamos com as maiores seguradoras do Brasil</p>
+        <div class="partners__track">
+          <span class="partner-logo">Porto Seguro</span>
+          <span class="partner-logo">Bradesco</span>
+          <span class="partner-logo">SulAmérica</span>
+          <span class="partner-logo">Allianz</span>
+          <span class="partner-logo">Azul Seguros</span>
+          <span class="partner-logo">Tokio Marine</span>
+          <span class="partner-logo">HDI</span>
+          <span class="partner-logo">Mapfre</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="hero">
+      <div class="hero__bg" aria-hidden="true">
+        <span class="orb orb--1"></span>
+        <span class="orb orb--2"></span>
+        <span class="aurora"></span>
+        <span class="grid-overlay"></span>
+      </div>
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <span class="badge badge--pulse">
+            <span class="badge__dot"></span>
+            Inauguração • Cupons por tempo limitado
+          </span>
+          <h1 class="hero__title">
+            Proteção com <span class="text-gradient">maestria</span>.
+            <br />Tranquilidade para a <span class="text-underline">vida toda</span>.
+          </h1>
+          <p class="hero__subtitle">
+            Compare as melhores seguradoras do país em segundos. Consultoria humana,
+            preço justo e tudo na palma da sua mão.
+          </p>
+
+          <!-- Seletor rápido estilo app -->
+          <div class="quickpick" role="group" aria-label="Escolha o que proteger">
+            <span class="quickpick__label">Quero proteger:</span>
+            <div class="quickpick__chips">
+              <button class="chip is-active" data-cover="Seguro Auto" data-icon="car" type="button">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 17h14M6 17l1.5-5h9L18 17"/><circle cx="7.5" cy="17.5" r="1.3"/><circle cx="16.5" cy="17.5" r="1.3"/></svg>
+                Auto
+              </button>
+              <button class="chip" data-cover="Seguro de Vida" data-icon="heart" type="button">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 14c1.5-1.5 3-3.3 3-5.5A4.5 4.5 0 0 0 12 5 4.5 4.5 0 0 0 2 8.5C2 10.7 3.5 12.5 5 14l7 7z"/></svg>
+                Vida
+              </button>
+              <button class="chip" data-cover="Seguro Residencial" data-icon="home" type="button">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l9-8 9 8"/><path d="M5 9.5V21h14V9.5"/></svg>
+                Casa
+              </button>
+              <button class="chip" data-cover="Seguro Empresarial" data-icon="biz" type="button">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21V8l9-5 9 5v13"/><path d="M9 21v-6h6v6"/></svg>
+                Empresa
+              </button>
+              <button class="chip" data-cover="Plano de Saúde" data-icon="health" type="button">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                Saúde
+              </button>
+            </div>
+          </div>
+
+          <div class="hero__actions">
+            <a href="#cadastro" class="btn btn--gold" id="heroCta">
+              <span>Quero meu cupom</span>
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a href="#servicos" class="btn btn--ghost btn--icon">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+              Explorar seguros
+            </a>
+          </div>
+
+          <div class="hero__trustline">
+            <div class="avatars">
+              <span class="avatars__item" style="--c1:#1f4e8c;--c2:#2c6fb0">MR</span>
+              <span class="avatars__item" style="--c1:#b8860b;--c2:#e0a82e">JS</span>
+              <span class="avatars__item" style="--c1:#234e70;--c2:#3a7ca5">AL</span>
+              <span class="avatars__item avatars__item--more">+5k</span>
+            </div>
+            <div class="hero__trustinfo">
+              <span class="hero__stars">★★★★★ <strong>4,9</strong></span>
+              <span>+5.000 famílias protegidas</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Painel estilo aplicativo -->
+        <div class="hero__visual">
+          <div class="appcard" id="appcard">
+            <div class="appcard__bar">
+              <span class="appcard__brand">
+                <span class="appcard__dot"></span> Master • Painel de Proteção
+              </span>
+              <span class="appcard__status">Online</span>
+            </div>
+            <div class="appcard__media">
+              <img src="assets/hero-master-seguros.png" alt="Família protegida pela Master Seguros" class="hero__img" />
+              <div class="appcard__cover" id="appCover">
+                <span class="appcard__cover-icon" id="coverIcon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 17h14M6 17l1.5-5h9L18 17"/><circle cx="7.5" cy="17.5" r="1.3"/><circle cx="16.5" cy="17.5" r="1.3"/></svg>
+                </span>
+                <span class="appcard__cover-text">
+                  <strong id="coverName">Seguro Auto</strong>
+                  <small>Cobertura ativa • 24h</small>
+                </span>
+                <span class="appcard__cover-check">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg>
+                </span>
+              </div>
+            </div>
+            <div class="appcard__foot">
+              <div class="appcard__metric">
+                <span class="appcard__metric-num">98%</span>
+                <span class="appcard__metric-label">sinistros aprovados</span>
+              </div>
+              <div class="appcard__bar-progress"><span style="--w:92%"></span></div>
+              <div class="appcard__metric">
+                <span class="appcard__metric-num">24h</span>
+                <span class="appcard__metric-label">resposta média</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="floatcard floatcard--1">
+            <div class="floatcard__icon">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+            </div>
+            <div>
+              <strong>100% Seguro</strong>
+              <span>Dados protegidos</span>
+            </div>
+          </div>
+          <div class="floatcard floatcard--2">
+            <div class="floatcard__icon floatcard__icon--gold">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+            </div>
+            <div>
+              <strong>Cotação grátis</strong>
+              <span>Em menos de 1 min</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#diferenciais" class="hero__scroll" aria-label="Rolar para baixo">
+        <span class="mouse"><span class="mouse__wheel"></span></span>
+      </a>
+    </section>
+
+    <!-- ============ DIFERENCIAIS ============ -->
+    <section class="diff section" id="diferenciais">
+      <div class="container diff__inner">
+        <div class="diff__media reveal">
+          <div class="diff__panel">
+            <div class="diff__panel-glow"></div>
+            <div class="diff__stat">
+              <span class="diff__stat-num">R$ 2,5 bi</span>
+              <span class="diff__stat-label">em indenizações intermediadas</span>
+            </div>
+            <div class="diff__bars">
+              <span style="--h:55%"></span>
+              <span style="--h:72%"></span>
+              <span style="--h:48%"></span>
+              <span style="--h:88%"></span>
+              <span style="--h:66%"></span>
+              <span style="--h:96%"></span>
+            </div>
+            <p class="diff__panel-note">Crescimento contínuo na satisfação dos nossos clientes</p>
+          </div>
+        </div>
+
+        <div class="diff__content">
+          <span class="eyebrow eyebrow--gold reveal">Por que a Master Seguros</span>
+          <h2 class="section__title reveal">Requinte no atendimento, força na <span class="text-gradient">negociação</span></h2>
+          <ul class="diff__list">
+            <li class="reveal">
+              <span class="diff__check"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg></span>
+              <div>
+                <strong>Consultoria independente</strong>
+                <p>Não vendemos uma única seguradora. Comparamos o mercado inteiro para encontrar o melhor custo-benefício para você.</p>
+              </div>
+            </li>
+            <li class="reveal">
+              <span class="diff__check"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg></span>
+              <div>
+                <strong>Atendimento humano e dedicado</strong>
+                <p>Um corretor exclusivo do início ao fim, inclusive na hora mais importante: o acionamento do sinistro.</p>
+              </div>
+            </li>
+            <li class="reveal">
+              <span class="diff__check"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg></span>
+              <div>
+                <strong>Preços negociados</strong>
+                <p>Nosso volume de clientes nos dá poder de barganha para garantir descontos que você não encontra sozinho.</p>
+              </div>
+            </li>
+            <li class="reveal">
+              <span class="diff__check"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg></span>
+              <div>
+                <strong>Transparência total</strong>
+                <p>Você entende exatamente o que está contratando, sem letras miúdas e sem surpresas na renovação.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ COMO FUNCIONA ============ -->
+    <section class="steps section" id="como-funciona">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Simples e rápido</span>
+          <h2 class="section__title">Sua proteção em <span class="text-gradient">3 passos</span></h2>
+          <p class="section__lead">Sem burocracia, sem complicação. Em poucos minutos você recebe as melhores opções do mercado.</p>
+        </div>
+        <div class="steps__grid">
+          <div class="step reveal">
+            <span class="step__num">01</span>
+            <div class="step__icon">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M9 13h6M9 17h6"/></svg>
+            </div>
+            <h3>Faça seu cadastro</h3>
+            <p>Preencha o formulário com seus dados. É rápido, gratuito e sem compromisso.</p>
+          </div>
+          <div class="step reveal">
+            <span class="step__num">02</span>
+            <div class="step__icon">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            </div>
+            <h3>Receba a análise</h3>
+            <p>Nosso time compara as seguradoras e monta a proposta ideal para o seu perfil.</p>
+          </div>
+          <div class="step reveal">
+            <span class="step__num">03</span>
+            <div class="step__icon">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3>Fique protegido</h3>
+            <p>Contrate com total segurança e conte com nosso suporte sempre que precisar.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ DEPOIMENTOS ============ -->
+    <section class="testimonials section" id="depoimentos">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Quem confia, recomenda</span>
+          <h2 class="section__title">Histórias de quem está <span class="text-gradient">protegido</span></h2>
+        </div>
+        <div class="testimonials__grid">
+          <figure class="quote reveal">
+            <div class="quote__stars">★★★★★</div>
+            <blockquote>"Tive um sinistro com meu carro e fui surpreendida pela agilidade. Em menos de 24h já tinha o carro reserva. Atendimento impecável!"</blockquote>
+            <figcaption>
+              <span class="quote__avatar" style="--c1:#1f4e8c;--c2:#2c6fb0">MR</span>
+              <span class="quote__person"><strong>Mariana Ribeiro</strong>Seguro Auto • São Paulo</span>
+            </figcaption>
+          </figure>
+          <figure class="quote reveal">
+            <div class="quote__stars">★★★★★</div>
+            <blockquote>"A consultoria fez toda a diferença. Economizei quase 30% no seguro de vida da minha família com uma cobertura muito melhor."</blockquote>
+            <figcaption>
+              <span class="quote__avatar" style="--c1:#b8860b;--c2:#e0a82e">JS</span>
+              <span class="quote__person"><strong>João Santos</strong>Seguro de Vida • Campinas</span>
+            </figcaption>
+          </figure>
+          <figure class="quote reveal">
+            <div class="quote__stars">★★★★★</div>
+            <blockquote>"Profissionalismo do começo ao fim. Explicaram cada detalhe da apólice da minha empresa. Recomendo de olhos fechados."</blockquote>
+            <figcaption>
+              <span class="quote__avatar" style="--c1:#234e70;--c2:#3a7ca5">AL</span>
+              <span class="quote__person"><strong>Ana Lima</strong>Seguro Empresarial • Santos</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CADASTRO / FORM ============ -->
+    <section class="signup section" id="cadastro">
+      <div class="signup__bg" aria-hidden="true">
+        <span class="orb orb--3"></span>
+        <span class="orb orb--4"></span>
+      </div>
+      <div class="container signup__inner">
+        <div class="signup__intro">
+          <span class="badge badge--light">
+            <span class="badge__dot"></span>
+            Oferta de Inauguração
+          </span>
+          <h2 class="signup__title">Cadastre-se e garanta seu <span class="text-gradient-gold">cupom de desconto</span></h2>
+          <p class="signup__text">
+            Para celebrar nossa inauguração, os primeiros cadastrados recebem cupons exclusivos
+            de desconto na contratação de qualquer seguro. Preencha seus dados e nossa equipe
+            entrará em contato com sua condição especial.
+          </p>
+          <ul class="signup__perks">
+            <li><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg> Até <strong>40% de desconto</strong> na primeira parcela</li>
+            <li><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg> Cotação gratuita e sem compromisso</li>
+            <li><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg> Consultor exclusivo para o seu perfil</li>
+            <li><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg> Seus dados <strong>100% protegidos</strong></li>
+          </ul>
+          <div class="signup__countdown" id="countdown" aria-label="Tempo restante da oferta">
+            <div class="cd__box"><span id="cd-days">00</span><small>dias</small></div>
+            <div class="cd__box"><span id="cd-hours">00</span><small>horas</small></div>
+            <div class="cd__box"><span id="cd-min">00</span><small>min</small></div>
+            <div class="cd__box"><span id="cd-sec">00</span><small>seg</small></div>
+          </div>
+        </div>
+
+        <div class="signup__formwrap reveal">
+          <form class="form" id="signupForm" novalidate>
+            <h3 class="form__title">Quero meu cupom de inauguração</h3>
+            <p class="form__sub">Preencha os campos abaixo. Leva menos de 1 minuto.</p>
+
+            <div class="field">
+              <label for="nome">Nome completo</label>
+              <input type="text" id="nome" name="nome" placeholder="Ex.: Maria da Silva" autocomplete="name" required />
+              <span class="field__error" data-error-for="nome"></span>
+            </div>
+
+            <div class="field-row">
+              <div class="field">
+                <label for="nascimento">Data de nascimento</label>
+                <input type="date" id="nascimento" name="nascimento" autocomplete="bday" required />
+                <span class="field__error" data-error-for="nascimento"></span>
+              </div>
+              <div class="field">
+                <label for="cidade">Cidade</label>
+                <input type="text" id="cidade" name="cidade" placeholder="Ex.: São Paulo" autocomplete="address-level2" required />
+                <span class="field__error" data-error-for="cidade"></span>
+              </div>
+            </div>
+
+            <div class="field-row">
+              <div class="field">
+                <label for="telefone">Telefone / WhatsApp</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999" inputmode="tel" autocomplete="tel" required />
+                <span class="field__error" data-error-for="telefone"></span>
+              </div>
+              <div class="field">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" autocomplete="email" required />
+                <span class="field__error" data-error-for="email"></span>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="endereco">Endereço completo</label>
+              <input type="text" id="endereco" name="endereco" placeholder="Rua, número, bairro, CEP" autocomplete="street-address" required />
+              <span class="field__error" data-error-for="endereco"></span>
+            </div>
+
+            <label class="checkbox">
+              <input type="checkbox" id="consent" name="consent" required />
+              <span class="checkbox__mark"></span>
+              <span class="checkbox__text">Autorizo o contato da Master Seguros e concordo com a <a href="#">Política de Privacidade</a>.</span>
+            </label>
+            <span class="field__error" data-error-for="consent"></span>
+
+            <button type="submit" class="btn btn--gold btn--block" id="submitBtn">
+              <span class="btn__label">Garantir meu cupom agora</span>
+              <span class="btn__spinner" aria-hidden="true"></span>
+            </button>
+            <p class="form__secure">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+              Seus dados estão seguros e não serão compartilhados.
+            </p>
+          </form>
+
+          <!-- Success state -->
+          <div class="form-success" id="formSuccess" hidden>
+            <div class="form-success__icon">
+              <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>
+            </div>
+            <h3>Cadastro confirmado! 🎉</h3>
+            <p>Parabéns, <strong id="successName">cliente</strong>! Seu cupom de inauguração foi reservado. Nossa equipe entrará em contato em breve pelo telefone ou e-mail informado.</p>
+            <div class="coupon">
+              <span class="coupon__label">Seu cupom exclusivo</span>
+              <span class="coupon__code" id="couponCode">MASTER40</span>
+              <button class="coupon__copy" id="copyCoupon" type="button">Copiar código</button>
+            </div>
+            <button class="btn btn--ghost btn--dark" id="newRegister" type="button">Fazer novo cadastro</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="faq section" id="faq">
+      <div class="container faq__inner">
+        <div class="section__head reveal">
+          <span class="eyebrow">Dúvidas frequentes</span>
+          <h2 class="section__title">Tudo que você precisa <span class="text-gradient">saber</span></h2>
+        </div>
+        <div class="faq__list">
+          <details class="faq__item reveal">
+            <summary>O cadastro tem algum custo?</summary>
+            <p>Não. O cadastro é totalmente gratuito e sem compromisso. Você só contrata se a proposta fizer sentido para você.</p>
+          </details>
+          <details class="faq__item reveal">
+            <summary>Como funciona o cupom de inauguração?</summary>
+            <p>Ao se cadastrar durante o período de inauguração, você garante um cupom de desconto que será aplicado na contratação de qualquer seguro com a Master Seguros. Nossa equipe informa todos os detalhes no contato.</p>
+          </details>
+          <details class="faq__item reveal">
+            <summary>A Master Seguros trabalha com quais seguradoras?</summary>
+            <p>Somos uma corretora independente e trabalhamos com mais de 25 seguradoras líderes do mercado, como Porto Seguro, Bradesco, SulAmérica, Allianz, Tokio Marine, entre outras.</p>
+          </details>
+          <details class="faq__item reveal">
+            <summary>Meus dados estão seguros?</summary>
+            <p>Sim. Levamos a sua privacidade a sério. Seus dados são usados apenas para a elaboração da cotação e nunca são compartilhados com terceiros sem a sua autorização, em conformidade com a LGPD.</p>
+          </details>
+          <details class="faq__item reveal">
+            <summary>Em quanto tempo recebo o retorno?</summary>
+            <p>Após o cadastro, nossa equipe entra em contato em até 1 dia útil com as melhores opções para o seu perfil.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA FINAL ============ -->
+    <section class="cta-final">
+      <div class="container cta-final__inner reveal">
+        <h2>Pronto para proteger o que <span class="text-gradient-gold">importa</span>?</h2>
+        <p>Não perca a oferta de inauguração. Garanta seu cupom de desconto hoje mesmo.</p>
+        <a href="#cadastro" class="btn btn--gold btn--lg">Quero meu cupom de desconto</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <img src="assets/logo-master-seguros.png" alt="Master Seguros" class="footer__logo" />
+        <p class="footer__slogan">Proteção com maestria, tranquilidade para a vida toda.</p>
+        <div class="footer__social">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M4.98 3.5A2.5 2.5 0 1 1 0 3.5a2.5 2.5 0 0 1 4.98 0zM.5 8h4V24h-4zM8 8h3.8v2.2h.05c.53-1 1.83-2.2 3.77-2.2 4.03 0 4.78 2.65 4.78 6.1V24h-4v-7.1c0-1.7-.03-3.9-2.38-3.9-2.38 0-2.75 1.86-2.75 3.78V24H8z"/></svg></a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4>Seguros</h4>
+        <a href="#servicos">Seguro Auto</a>
+        <a href="#servicos">Seguro de Vida</a>
+        <a href="#servicos">Seguro Residencial</a>
+        <a href="#servicos">Seguro Empresarial</a>
+        <a href="#servicos">Plano de Saúde</a>
+        <a href="#servicos">Seguro Viagem</a>
+      </div>
+      <div class="footer__col">
+        <h4>Empresa</h4>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#faq">Dúvidas frequentes</a>
+        <a href="#cadastro">Cupom de inauguração</a>
+      </div>
+      <div class="footer__col">
+        <h4>Contato</h4>
+        <a href="tel:+5511999999999">(11) 99999-9999</a>
+        <a href="mailto:contato@masterseguros.com.br">contato@masterseguros.com.br</a>
+        <a href="https://wa.me/5511999999999">WhatsApp</a>
+        <p class="footer__addr">Av. Paulista, 1000 — São Paulo/SP</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>&copy; <span id="year">2026</span> Master Seguros. Todos os direitos reservados.</p>
+        <p>CNPJ 00.000.000/0001-00 • SUSEP nº 00000000</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ WHATSAPP FLOAT ============ -->
+  <a href="https://wa.me/++55065999999999" class="whatsapp-float" aria-label="Fale conosco no WhatsApp" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15l-1.4 5 5.1-1.3A10 10 0 1 0 12 2zm5.8 14.2c-.2.7-1.2 1.3-1.7 1.3-.5.1-1 .1-1.7-.1-.4-.1-.9-.3-1.6-.6-2.8-1.2-4.6-4-4.8-4.2-.1-.2-1.1-1.4-1.1-2.7s.7-1.9.9-2.2c.2-.2.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 1.9c.1.2.1.4 0 .5l-.4.6c-.1.2-.3.3-.1.6.1.2.6 1 1.3 1.6.9.8 1.6 1 1.9 1.2.2.1.4.1.5-.1l.7-.8c.2-.2.4-.2.6-.1l1.8.9c.2.1.4.2.4.3.1.2.1.8-.1 1.3z"/></svg>
+  </a>
+
+  <!-- ============ TOAST ============ -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
