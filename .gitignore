@@ -1,0 +1,47 @@
+# ===== Sistema Operacional =====
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ===== Editores / IDEs =====
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# ===== Dependências (caso venha a usar Node/build) =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+
+# ===== Build / Distribuição =====
+dist/
+build/
+.cache/
+.tmp/
+
+# ===== Variáveis de ambiente / segredos =====
+.env
+.env.local
+.env.*.local
+
+# ===== Logs =====
+*.log
+logs/
+
+# ===== Ferramentas do Cursor / Agentes =====
+.cursor/
+agent-tools/
+agent-transcripts/
+terminals/
+mcps/
